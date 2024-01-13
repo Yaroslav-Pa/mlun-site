@@ -30,7 +30,7 @@ export default function header() {
   const [showingMenu, setShowingMenu] = useState(false);
 
   return (
-    <header>
+    <header className='text-white'>
       {/* bg for open mobile menu */}
       <div
         className={
@@ -66,7 +66,7 @@ export default function header() {
             href="/"
             className={showingMenu ? 'visible' : 'invisible md:visible'}
           >
-            <img className="max-w-[150px]" src="./iconBlack.png"></img>
+            <img className="max-w-[150px]" src="./iconWhite.png"></img>
           </Link>
           <div className={showingMenu ? ' md:hidden' : ' hidden'}>
             <FontAwesomeIcon icon={faXmark} className={'text-[24px]'} onClick={() => {
