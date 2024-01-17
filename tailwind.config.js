@@ -8,7 +8,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'bgMainPhoto': "url('/replaceThisPhoto.jpg')"
+        'bgMainPhoto': "url('/replaceThisPhoto.jpg')",
+        'alex': "url('/alex.jpg')"
       },
       colors: {
         secondColor: 'rgb(67 56 202)',
