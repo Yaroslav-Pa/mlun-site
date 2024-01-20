@@ -51,9 +51,9 @@ function TeamList(props) {
   ));
 
   return (
-    <section className=" ml-60 my-32 p-5">
+    <section className=" md:ml-60 my-32 p-5">
       <h1 className="text-3xl font-bold">Команда</h1>
-      <div className="grid grid-cols-3 gap-y-10 justify-items-center my-10">
+      <div className="grid grid-cols-1 lg:grid-cols-2 2xl:grid-cols-3 grid-rows-2 gap-y-10 justify-items-center my-10 overflow-x-clip max-h-[530px]">
         {teamlist}
       </div>
       <div className='flex flex-row justify-center gap-3'>
